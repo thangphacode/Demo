@@ -22,7 +22,7 @@ export default class Login extends Component {
 	onLogin() {
 		const { username, password } = this.state
 
-		Alert.alert('Xin Chào', `${username} + ${password}`)
+		Alert.alert('Xin Chào Nguyen vinh', `${username} + ${password}`)
 	}
 
 	render() {
